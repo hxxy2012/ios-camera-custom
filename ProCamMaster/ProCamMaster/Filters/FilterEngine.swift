@@ -35,13 +35,13 @@ class FilterEngine {
             case .film:
                 return [.kodakEktar, .fujiProvia, .fujiVelvia, .kodakPortra]
             case .cinematic:
-                return [.cinematic1, .cinematic2, .teal Oranges, .bleachBypass]
+                return [.cinematic1, .cinematic2, .tealOranges, .bleachBypass]
             case .bw:
                 return [.bwClassic, .bwHighContrast, .bwLowKey, .bwGrain]
             case .portrait:
                 return [.softSkin, .warmPortrait, .coolPortrait]
             case .landscape:
-                return [.landscapes, .natureSaturation, .goldHour]
+                return [.landscape, .natureSaturation, .goldHour]
             case .dramatic:
                 return [.dramatic, .moody, .dark]
             case .soft:
